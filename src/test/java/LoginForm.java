@@ -71,11 +71,11 @@ public class LoginForm {
         $("#example-modal-sizes-title-lg").shouldHave(text(summitText));
         $("tbody").shouldHave(exactText("Student Name " + fullName + "\n" +
                                                     "Student Email " + email + "\n" +
-                                                    "Gender Male\n" +
+                                                    "Gender " + gender + "\n" +
                                                     "Mobile " + phoneNumber + "\n" +
                                                     "Date of Birth 10 December,1990" + "\n" +
                                                     "Subjects " + subject1 + ", " + subject2 + "\n" +
-                                                    "Hobbies " + hobbie1 + ", " + hobbie2 + ", " + hobbie3 +"\n" +
+                                                    "Hobbies " + hobbie1 + ", " + hobbie2 + ", " + hobbie3 + "\n" +
                                                     "Picture bruce.jpeg" + "\n" +
                                                     "Address " + address + "\n" +
                                                     "State and City " + state + " " + city));
